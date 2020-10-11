@@ -1,0 +1,181 @@
+/* Big tablet to 1200px (width smaller than the 1240px row) */
+
+@media only screen and (max-width: 1240px) {
+  .headerInfo {
+    width: 100%;
+    padding: 0 2%;
+  }
+  .row {
+    padding: 0 2%;
+  }
+}
+
+/* Small tablet to big tablet (from 768px to 1023px) */
+
+@media only screen and (max-width: 1023px) {
+  body {
+    font-size: 14px;
+  }
+
+  section {
+    padding: 4rem 0;
+  }
+
+  /* header */
+  nav li a,
+  .dropbtn {
+    font-size: 0.8rem;
+  }
+
+  /* services */
+
+  .whatWeDo {
+    width: 96%;
+    margin: 0 2%;
+  }
+
+  #services .row {
+    margin: 0;
+    padding: 0;
+  }
+  .services h3 {
+    font-size: 0.8rem;
+  }
+  .box p {
+    font-size: 0.8rem;
+  }
+
+  .box i {
+    font-size: 3rem;
+  }
+
+  #services .col_3 {
+    padding: 0 1rem;
+  }
+
+  /* our cities */
+
+  .city-feature i {
+    font-size: 1em;
+  }
+
+  .city-feature {
+    font-size: 0.8rem;
+  }
+
+  .section {
+    padding: 3em 0;
+  }
+
+  #cities h3 {
+    font-size: 1rem;
+  }
+  .col_4 {
+    width: 50%;
+  }
+
+  /* testemonials */
+  cite {
+    padding-top: 4rem;
+  }
+
+  /* plan */
+
+  .plan_box {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .plan_price {
+    font-size: 2rem;
+  }
+
+  /* form */
+
+  .contact_form {
+    width: 80%;
+  }
+}
+/* Small phones to small tablets (from 481px to 767px) */
+
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 12px;
+  }
+
+  section {
+    padding: 3rem 0;
+  }
+
+  .main_nav {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: inline-block;
+  }
+  nav ul {
+    margin-top: 0.5rem;
+  }
+
+  nav ul li {
+    display: block;
+  }
+  nav li a,
+  .dropbtn {
+    display: block;
+    font-size: 0.6rem;
+    padding: 0.3rem;
+  }
+
+  /* position fixed */
+
+  .fixed_position .main_nav {
+    display: none;
+  }
+  .fixed_position .mobile-nav {
+    display: inline-block;
+    color: #000;
+  }
+  .fixed_position nav ul {
+    margin-top: 0.5rem;
+  }
+
+  .fixed_position nav ul li {
+    display: block;
+  }
+  .fixed_position nav li a,
+  .fixed_position .dropbtn {
+    display: block;
+    font-size: 0.6rem;
+    padding: 0.3rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  .contact_form,
+  .col_4,
+  .col3,
+  .col_3 {
+    width: 100%;
+  }
+
+  #testimonials .col3 {
+    height: 200px;
+  }
+
+  blockquote {
+    height: 20%;
+  }
+}
+
+/* Small phones (from 0 to 480px) */
+
+@media only screen and (max-width: 480px) {
+}
